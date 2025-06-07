@@ -1,5 +1,5 @@
 
-![Logo](Logo/logo_sanea.svg)
+![logo_sanea](https://github.com/user-attachments/assets/83109b5f-f472-42b1-9076-beeab971e656)
 
 ---
 
@@ -22,15 +22,12 @@ O **SaneaSP** é um sistema desenvolvido para auxiliar a prefeitura ou o órgão
 
 ## Backlogs & User Stories
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+<div align="center">
 
-![Backlog do produto](Images/produto_backlog.png)
-
-![Backlog das sprints](Images/sprint_backlog1a3.png)
-
-![Backlog das sprints](Images/sprint_backlog4a6.png)
-
-![User Stories](Images/user-stories.png)
+![produto_backlog](https://github.com/user-attachments/assets/30a506e6-cde0-4e48-a5b7-dc0471b3196b)
+![user-stories](https://github.com/user-attachments/assets/3e2a3af6-4536-4225-91fa-ca063d1fa2f1)
+![sprint_backlog1a3](https://github.com/user-attachments/assets/24d909e7-2c0c-4499-85ca-fae28289ba9f)
+![sprint_backlog4a6](https://github.com/user-attachments/assets/0b95d6b4-8291-4951-af29-a3ebf5147c9d)
 
 </div>
 
@@ -84,11 +81,3 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 O projeto foi baseado nos Objetivos de Desenvolvimento Sustentável (ODS) de número 6 — *Água Potável e Saneamento* — e 3 — *Saúde e Bem-Estar*. Essas metas possuem uma relação direta de causa e consequência: comunidades com acesso adequado ao saneamento básico e à água potável estão menos expostas a doenças.
 
 Apesar da existência de infraestrutura e órgãos competentes, problemas como fossas a céu aberto, esgoto irregular e rompimento de tubulações frequentemente passam despercebidos pelas autoridades. O **SaneaSP** visa preencher essa lacuna, dando voz aos cidadãos e fornecendo dados valiosos para a tomada de decisão.
-
-### Tecnologias Utilizadas
-
-- **Bootstrap**: Framework front-end que facilita a criação de sites e aplicações responsivas. Sua estrutura baseada em componentes e classes CSS permite um desenvolvimento ágil e compatível com diversos dispositivos.
-
-- **Angular**: Framework open-source desenvolvido pelo Google, baseado em TypeScript. Ideal para a construção de aplicações web dinâmicas e modulares, o Angular oferece recursos como roteamento, gerenciamento de estado, validação de formulários e muito mais.
-
-- **Astah**: Ferramenta de modelagem utilizada para criar diversos tipos de diagramas, como casos de uso, fluxos de dados e modelagem de sistemas. Fundamental para a documentação e compreensão da arquitetura do projeto.
