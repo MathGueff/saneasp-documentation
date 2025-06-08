@@ -18,15 +18,15 @@
 
 O **SaneaSP** é um sistema desenvolvido para auxiliar a prefeitura ou o órgão responsável pelo saneamento básico e pela gestão hídrica de uma cidade. Sua principal função é disponibilizar, de forma rápida e organizada, comentários e denúncias da população sobre problemas relacionados ao saneamento na região. Dessa forma, o sistema atua como um centro de informações para os responsáveis, promovendo uma gestão mais eficaz e responsiva.
 
-📌 Status do Projeto: **Em desenvolvimento** 🔁:
+📌 Status do Projeto: **Em desenvolvimento** 🔁
 
 ### 🏁 Entregas de Sprints
 Cada entrega possui uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
 | Sprint | Ínício | Fim | Status | Histórico |
-|:--:|:----------:|:----------:|:----------------|:-------------------------------------------------:|
-| 01 | 17/03/2025 | 01/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-01/README.md) |
-| 02 | 01/04/2025 | 16/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-02/README.md) |
-| 03 | 17/04/2025 | 28/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-03/README.md) |
+|:--:|:----------:|:----------:|:---------------:|:-------------------------------------------------:|
+| 01 | 17/03/2025 | 01/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-01/README.md) |
+| 02 | 01/04/2025 | 16/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-02/README.md) |
+| 03 | 17/04/2025 | 28/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-03/README.md) |
 | 04 | 28/04/2025 | 12/05/2025 |✔️ Concluída    | Relatório não concluído |
 | 05 | 13/05/2025 | 27/05/2025 |✔️ Concluída    | Relatório não concluído |
 | 06 | 28/05/2025 | 10/06/2025 |🔁 Em Andamento    | Relatório não concluído |
