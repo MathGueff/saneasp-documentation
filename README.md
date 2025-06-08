@@ -24,7 +24,7 @@ Esse requisito se trata das etapas de gerenciamento de uma reclamação, incluin
 
 ### RF004 - Gerenciamento e cadastro de doenças
 
-> O administrador pode criar, editar e excluir doenças, que serão visíveis para todos os usuários
+> O administrador pode criar, editar e excluir doenças relacionadas ao saneamento básico, que serão visíveis para todos os usuários
 
 Esse requisito se trata das etapas de gerenciamento de uma doença, incluindo sua criação até sua visualização, edição e exclusão.
 
