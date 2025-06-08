@@ -1,83 +1,71 @@
+<span id="topo">
 
-![logo_sanea](https://github.com/user-attachments/assets/83109b5f-f472-42b1-9076-beeab971e656)
-
----
+# Relatório da Sprint 2 (01/04/2025 a 16/04/2025)
 
 <p align="center">
-    <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs & User Stories</a>  |  
-    <a href="#prototipo">Protótipo & Documentação</a>  |  
-    <a href="#tecnologias">Tecnologias</a>  |  
-    <a href="#equipe">Equipe</a> |
-    <a href="#doc-geral">Documentação Geral</a>
+    <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
+    <a href="#entregas">Entregas</a> 
+    <hr>
+    <ul>
+        <a href="#RF002"><li>RF002 - Gerenciamento e cadastro de reclamações</li></a>
+        <a href="#RF005"><li>RF005 - Gerenciamento e cadastro de notícias</li></a>
+        <a href="#RNF003"><li>RNF003 - Responsividade</li></a>
+        <a href="#RNF006"><li>RNF006 - Acessibilidade</li></a>
+    </ul>
 </p>
 
-<span id="sobre">
+<span id="objetivos">
 
-# Sobre o projeto
+## 🎯 Objetivos da Sprint
 
-O **SaneaSP** é um sistema desenvolvido para auxiliar a prefeitura ou o órgão responsável pelo saneamento básico e pela gestão hídrica de uma cidade. Sua principal função é disponibilizar, de forma rápida e organizada, comentários e denúncias da população sobre problemas relacionados ao saneamento na região. Dessa forma, o sistema atua como um centro de informações para os responsáveis, promovendo uma gestão mais eficaz e responsiva.
+- Expandir a interface do sistema com novas funcionalidades conforme definição do backend.
+- Incluir acessibilidade nas interfaces para ampliar o alcance do sistema.
 
-<span id="backlogs">
+**Requisitos abordados:**
 
-## Backlogs & User Stories
+- RF002 (Gerenciamento e cadastro de reclamações)
+- RF005 (Gerenciamento e cadastro de notícias)
+- RNF003 (Responsividade)
+- RNF006 (Acessibilidade)
 
-<div align="center">
+<span id="entregas">
 
-![produto_backlog](https://github.com/user-attachments/assets/30a506e6-cde0-4e48-a5b7-dc0471b3196b)
-![user-stories](https://github.com/user-attachments/assets/3e2a3af6-4536-4225-91fa-ca063d1fa2f1)
-![sprint_backlog1a3](https://github.com/user-attachments/assets/24d909e7-2c0c-4499-85ca-fae28289ba9f)
-![sprint_backlog4a6](https://github.com/user-attachments/assets/0b95d6b4-8291-4951-af29-a3ebf5147c9d)
+## ✔️ Entregas
 
-</div>
+- Desenvolvimento das telas correspondentes às operações restantes do CRUD para reclamações e notícias.
+- Inclusão de recursos de acessibilidade para garantir que o sistema possa ser utilizado por pessoas com necessidades especiais.
+- Melhorias na responsividade das interfaces para dispositivos móveis e desktops.
 
-<span id="prototipo">
+<span id="RF002">
 
-## Protótipo e Documentação
+### RF002 - Gerenciamento e cadastro de reclamações
 
-Durante o desenvolvimento do **SaneaSP**, foi criado um protótipo funcional alinhado às ODS 6 e 3. A aplicação permite que qualquer cidadão denuncie problemas relacionados ao saneamento em sua região, promovendo maior participação social.
+> O usuário deve ser capaz de criar, editar e excluir reclamações, que serão públicas para visualização de outros usuários e administradores.
 
-A interface foi construída com **Bootstrap**, garantindo uma boa experiência de uso em qualquer dispositivo. O front-end, estruturado com **Angular**, oferece uma aplicação moderna, modular e de fácil manutenção.
+Essa sprint aprimorou as funcionalidades de gerenciamento das reclamações, adicionando telas para exclusão e edição de reclamações e gerenciamento de tags (categorias das reclamações)
 
-A documentação técnica foi desenvolvida com a ferramenta **Astah**, incluindo diagramas de casos de uso, modelagem de dados e fluxos de navegação. Todo o material está disponível em um **guia em PDF**, servindo como referência para manutenções e melhorias futuras.
+<span id="RF005">
 
-<span id="tecnologias">
+### RF005 - Gerenciamento e cadastro de notícias
 
-## 🛠️ Tecnologias
+> O administrador pode criar, editar e excluir notícias relacionadas a saúde pública e saneamento básico, que serão visíveis para todos os usuários
 
-As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
+Essa sprint aprimorou as funcionalidades de gerenciamento das notícias, adicionando telas para exclusão de notícias e gerenciamento de tags (categorias das notícias)
 
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/HTML5-CED4DA?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
-<img src="https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 	
-<img src="https://img.shields.io/badge/Node.js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<span id="RNF003">
 
-<span id="equipe">
+### RNF003 - Responsividade
 
-## Equipe:
+> O site deverá ser responsivo, adaptando-se a diferentes resoluções de tela, com foco em uma boa experiência tanto em dispositivos móveis quanto em desktops.
 
-|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Desenvolvedor | Davy Oliveira Ribeiro           |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/davy-ribeiro-600a43253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/devDavyRibeiro)              |
-| Desenvolvedor  | Matheus Augusto Santos Gueff |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-gueff-b74949311) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MathGueff)     |
-|   Desenvolvedor    | Pedro Silva Martins               |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/pedro--silva-martins/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Pedro8k)        |
-|   Desenvolvedor   | Ryan Carlo Negretti Pereira                   |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-carlo-negretti-pereira-8709b1292/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/RyanCNP)        |
+Continuamos a garantir que o sistema funcione bem em diferentes dispositivos, com melhorias visuais e funcionais.
 
-<span id="doc-geral">
+<span id="RNF006">
 
-# Documentação Geral
+### RNF006 - Acessibilidade
 
-### Repositórios do Projeto
-- 🔗 [Back-End](https://github.com/RyanCNP/Backend-SaneaSP.git)  
-- 🔗 [Front-End](https://github.com/MathGueff/FrontEnd-SaneaSP.git)  
-- 📄 [Documentação](https://github.com/MathGueff/Documentacao-SaneaSP.git)
+> O site deverá seguir diretrizes de acessibilidade (como WCAG), garantindo uso por pessoas com deficiência visual, incluindo cegos e daltônicos, além de oferecer recursos que melhorem a usabilidade para todos os usuários
 
-### Justificativa
+Foram implementadas melhorias para tornar o sistema acessível a pessoas com deficiências, ampliando a usabilidade para todos os públicos. Com foco em disponibilizar uma navegabilidade acessível por teclado .
 
-O projeto foi baseado nos Objetivos de Desenvolvimento Sustentável (ODS) de número 6 — *Água Potável e Saneamento* — e 3 — *Saúde e Bem-Estar*. Essas metas possuem uma relação direta de causa e consequência: comunidades com acesso adequado ao saneamento básico e à água potável estão menos expostas a doenças.
-
-Apesar da existência de infraestrutura e órgãos competentes, problemas como fossas a céu aberto, esgoto irregular e rompimento de tubulações frequentemente passam despercebidos pelas autoridades. O **SaneaSP** visa preencher essa lacuna, dando voz aos cidadãos e fornecendo dados valiosos para a tomada de decisão.
+→ [Voltar ao topo](#topo)
