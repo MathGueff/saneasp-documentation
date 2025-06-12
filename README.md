@@ -1,97 +1,94 @@
+<span id="topo">
 
-![logo_sanea](https://github.com/user-attachments/assets/83109b5f-f472-42b1-9076-beeab971e656)
-
----
+# Relatório da Sprint 5 (13/05/2025 a 27/05/2025)
 
 <p align="center">
-    <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs & User Stories</a>  |  
-    <a href="#prototipo">Protótipo & Documentação</a>  |  
-    <a href="#tecnologias">Tecnologias</a>  |  
-    <a href="#equipe">Equipe</a> |
-    <a href="#doc-geral">Documentação Geral</a>
+    <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
+    <a href="#entregas">Entregas</a>
+    <hr>
+    <ul>
+        <a href="#RF002"><li>RF002 - Gerenciamento e cadastro de reclamações</li></a>
+        <a href="#RF009"><li>RF009 - Geração de pontuação para reclamações</li></a>
+        <a href="#RNF006"><li>RNF006 - Acessibilidade</li></a>
+        <a href="#RNF007"><li>RNF007 - Feedback ao usuário</li></a>
+        <a href="#RNF008"><li>RNF008 - Backend e API</li></a>
+        <a href="#RNF009"><li>RNF009 - Documentação</li></a>
+    </ul>
 </p>
 
-<span id="sobre">
+<span id="objetivos">
 
-# Sobre o projeto
+## 🎯 Objetivos da Sprint
 
-O **SaneaSP** é um sistema desenvolvido para auxiliar a prefeitura ou o órgão responsável pelo saneamento básico e pela gestão hídrica de uma cidade. Sua principal função é disponibilizar, de forma rápida e organizada, comentários e denúncias da população sobre problemas relacionados ao saneamento na região. Dessa forma, o sistema atua como um centro de informações para os responsáveis, promovendo uma gestão mais eficaz e responsiva.
+- Início do desenvolvimento da documentação.  
+- Criação de relacionamentos entre tabelas.  
+- Integração da API de Reclamações com o frontend.
 
-📌 Status do Projeto: **Em desenvolvimento** 🔁
+**Requisitos abordados:**
 
-### 🏁 Entregas de Sprints
-Cada entrega possui uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
-| Sprint | Ínício | Fim | Status | Histórico |
-|:--:|:----------:|:----------:|:---------------:|:-------------------------------------------------:|
-| 01 | 17/03/2025 | 01/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-01/README.md) |
-| 02 | 01/04/2025 | 16/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-02/README.md) |
-| 03 | 17/04/2025 | 28/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-03/README.md) |
-| 04 | 28/04/2025 | 12/05/2025 |✔️ Concluída    | Relatório não concluído |
-| 05 | 13/05/2025 | 27/05/2025 |✔️ Concluída    | Relatório não concluído |
-| 06 | 28/05/2025 | 10/06/2025 |🔁 Em Andamento    | Relatório não concluído |
-| 07 | 10/06/2025 | 24/06/2025 |✖️ Não iniciada   | Relatório não concluído |
+- RF002 (Gerenciamento e cadastro de reclamações)  
+- RF009 (Geração de pontuação para reclamações)  
+- RNF006 (Acessibilidade)  
+- RNF007 (Feedback ao usuário)  
+- RNF008 (Backend e API)  
+- RNF009 (Documentação)
 
-<span id="backlogs">
+<span id="entregas">
 
-## Backlogs & User Stories
+## ✔️ Entregas
 
-<div align="center">
+- Continuação da integração iniciada na sprint anterior.  
+- Validação das funcionalidades do CRUD por meio da interface.  
+- Associação das tabelas de Reclamação com Tags e Imagens.  
+- Criação do README do projeto.  
+- Criação de documentos obrigatórios para documentação.
 
-![produto_backlog](https://github.com/user-attachments/assets/30a506e6-cde0-4e48-a5b7-dc0471b3196b)
-![user-stories](https://github.com/user-attachments/assets/3e2a3af6-4536-4225-91fa-ca063d1fa2f1)
-![sprint_backlog1a3](https://github.com/user-attachments/assets/24d909e7-2c0c-4499-85ca-fae28289ba9f)
-![sprint_backlog4a6](https://github.com/user-attachments/assets/0b95d6b4-8291-4951-af29-a3ebf5147c9d)
+<span id="RF002">
 
-</div>
+### RF002 - Gerenciamento e cadastro de reclamações
 
-<span id="prototipo">
+> O usuário deve ser capaz de criar, editar e excluir reclamações, que serão públicas para visualização de outros usuários e administradores.
 
-## Protótipo e Documentação
+Criamos a tabela de imagens e fizemos o relacionamento com a tabela de reclamações e o relacionamento da tabela tag já existente. Com isso, as rotas de cadastro e listagem de todas as reclamações foram finalizadas integradas ao front-end
 
-Durante o desenvolvimento do **SaneaSP**, foi criado um protótipo funcional alinhado às ODS 6 e 3. A aplicação permite que qualquer cidadão denuncie problemas relacionados ao saneamento em sua região, promovendo maior participação social.
+<span id="RF009">
 
-A interface foi construída com **Bootstrap**, garantindo uma boa experiência de uso em qualquer dispositivo. O front-end, estruturado com **Angular**, oferece uma aplicação moderna, modular e de fácil manutenção.
+### RF009 - Geração de pontuação para reclamações
 
-A documentação técnica foi desenvolvida com a ferramenta **Astah**, incluindo diagramas de casos de uso, modelagem de dados e fluxos de navegação. Todo o material está disponível em um **guia em PDF**, servindo como referência para manutenções e melhorias futuras.
+> As reclamações devem ser classificadas por pontuação, baseada no detalhamento da reclamação e no perfil do usuário criador, para aumentar a confiabilidade.
 
-<span id="tecnologias">
+A API de reclamações gera uma pontuação com base nos dados recebidos (critério de aumento de pontuação)
 
-## 🛠️ Tecnologias
+<span id="RNF006">
 
-As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
+### RNF006 - Acessibilidade
 
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/HTML5-CED4DA?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
-<img src="https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 	
-<img src="https://img.shields.io/badge/Node.js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+> As reclamações devem ser classificadas por pontuação, baseada no detalhamento da reclamação e no perfil do usuário criador, para aumentar a confiabilidade.
 
-<span id="equipe">
+Foram implementadas melhorias de acessibilidade, principalmente para recursos não disponíveis por padrão com acesso por tabulação.
 
-## Equipe:
+<span id="RNF007">
 
-|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Desenvolvedor | Davy Oliveira Ribeiro           |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/davy-ribeiro-600a43253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/devDavyRibeiro)              |
-| Desenvolvedor  | Matheus Augusto Santos Gueff |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-gueff-b74949311) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MathGueff)     |
-|   Desenvolvedor    | Pedro Silva Martins               |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/pedro--silva-martins/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Pedro8k)        |
-|   Desenvolvedor   | Ryan Carlo Negretti Pereira                   |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-carlo-negretti-pereira-8709b1292/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/RyanCNP)        |
+### RNF007 - Feedback ao usuário
 
-<span id="doc-geral">
+> O sistema deve exibir notificações visuais ou sonoras para informar o usuário sobre erros, exceções ou a conclusão bem-sucedida de operações.
 
-# Documentação Geral
+Desenvolvido sistema de toast notification que exibe a mensagem retornada pelas APIs.
 
-### Repositórios do Projeto
-- 🔗 [Back-End](https://github.com/RyanCNP/Backend-SaneaSP.git)  
-- 🔗 [Front-End](https://github.com/MathGueff/FrontEnd-SaneaSP.git)  
-- 📄 [Documentação](https://github.com/MathGueff/Documentacao-SaneaSP.git)
+<span id="RNF008">
 
-### Justificativa
+### RNF008 - Backend e API
 
-O projeto foi baseado nos Objetivos de Desenvolvimento Sustentável (ODS) de número 6 — *Água Potável e Saneamento* — e 3 — *Saúde e Bem-Estar*. Essas metas possuem uma relação direta de causa e consequência: comunidades com acesso adequado ao saneamento básico e à água potável estão menos expostas a doenças.
+> O sistema deve possuir backend robusto, expor API RESTful e integrar-se com banco de dados em nuvem, garantindo segurança e desempenho adequados.
 
-Apesar da existência de infraestrutura e órgãos competentes, problemas como fossas a céu aberto, esgoto irregular e rompimento de tubulações frequentemente passam despercebidos pelas autoridades. O **SaneaSP** visa preencher essa lacuna, dando voz aos cidadãos e fornecendo dados valiosos para a tomada de decisão.
+As APIs foram conectadas às tabelas relacionadas (Reclamações, Tags e Imagens), consolidando a estrutura de dados do backend com respostas apropriadas.
+
+<span id="RNF009">
+
+### RNF009 - Documentação
+
+> O projeto deve conter documentação atualizada, seguindo práticas das metodologias ágeis SCRUM e Kanban.
+
+Foi iniciado o README do projeto, além da criação de arquivos complementares para documentação final.
+
+→ [Voltar ao topo](#topo)
