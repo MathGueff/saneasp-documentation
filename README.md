@@ -1,83 +1,82 @@
+<span id="topo">
 
-![logo_sanea](https://github.com/user-attachments/assets/83109b5f-f472-42b1-9076-beeab971e656)
-
----
+# Relatório da Sprint 4 (28/04/2025 a 12/05/2025)
 
 <p align="center">
-    <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs & User Stories</a>  |  
-    <a href="#prototipo">Protótipo & Documentação</a>  |  
-    <a href="#tecnologias">Tecnologias</a>  |  
-    <a href="#equipe">Equipe</a> |
-    <a href="#doc-geral">Documentação Geral</a>
+    <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
+    <a href="#entregas">Entregas</a>
+    <hr>
+    <ul>
+        <a href="#RF001"><li>RF001 - Login e autenticação</li></a>
+        <a href="#RF002"><li>RF002 - Gerenciamento e cadastro de reclamações</li></a>
+        <a href="#RNF002"><li>RNF002 - Banco de dados</li></a>
+        <a href="#RNF004"><li>RNF004 - Hardwares mínimos</li></a>
+        <a href="#RNF008"><li>RNF008 - Backend e API</li></a>
+    </ul>
 </p>
 
-<span id="sobre">
+<span id="objetivos">
 
-# Sobre o projeto
+## 🎯 Objetivos da Sprint
 
-O **SaneaSP** é um sistema desenvolvido para auxiliar a prefeitura ou o órgão responsável pelo saneamento básico e pela gestão hídrica de uma cidade. Sua principal função é disponibilizar, de forma rápida e organizada, comentários e denúncias da população sobre problemas relacionados ao saneamento na região. Dessa forma, o sistema atua como um centro de informações para os responsáveis, promovendo uma gestão mais eficaz e responsiva.
+- Finalizar a estruturação do banco de dados com SQLite.  
+- Iniciar integração da API com os models ORM.
 
-<span id="backlogs">
+**Requisitos abordados:**
 
-## Backlogs & User Stories
+- RF001 (Login e autenticação)  
+- RF002 (Gerenciamento e cadastro de reclamações)  
+- RNF002 (Banco de dados)  
+- RNF004 (Hardwares mínimos)  
+- RNF008 (Backend e API)
 
-<div align="center">
+<span id="entregas">
 
-![produto_backlog](https://github.com/user-attachments/assets/30a506e6-cde0-4e48-a5b7-dc0471b3196b)
-![user-stories](https://github.com/user-attachments/assets/3e2a3af6-4536-4225-91fa-ca063d1fa2f1)
-![sprint_backlog1a3](https://github.com/user-attachments/assets/24d909e7-2c0c-4499-85ca-fae28289ba9f)
-![sprint_backlog4a6](https://github.com/user-attachments/assets/0b95d6b4-8291-4951-af29-a3ebf5147c9d)
+## ✔️ Entregas
 
-</div>
+- Finalização do banco de dados com Sequelize e suas tabelas.  
+- Integração completa do banco com a API desenvolvida.  
+- Início da integração entre frontend e backend.  
+- Criação dos models ORM para manipulação do banco.
 
-<span id="prototipo">
+<span id="RF001">
 
-## Protótipo e Documentação
+### RF001 - Login e autenticação
 
-Durante o desenvolvimento do **SaneaSP**, foi criado um protótipo funcional alinhado às ODS 6 e 3. A aplicação permite que qualquer cidadão denuncie problemas relacionados ao saneamento em sua região, promovendo maior participação social.
+> O sistema deve permitir que os usuários façam login e autenticação pelo sistema ou com redes sociais para acessar funcionalidades conforme seu perfil..
 
-A interface foi construída com **Bootstrap**, garantindo uma boa experiência de uso em qualquer dispositivo. O front-end, estruturado com **Angular**, oferece uma aplicação moderna, modular e de fácil manutenção.
+Nessa sprint foi criada a tabela de usuários no SQlite para início da autenticação com banco de dados
 
-A documentação técnica foi desenvolvida com a ferramenta **Astah**, incluindo diagramas de casos de uso, modelagem de dados e fluxos de navegação. Todo o material está disponível em um **guia em PDF**, servindo como referência para manutenções e melhorias futuras.
+<span id="RF002">
 
-<span id="tecnologias">
+### RF002 - Gerenciamento e cadastro de reclamações
 
-## 🛠️ Tecnologias
+> O usuário deve ser capaz de criar, editar e excluir reclamações, que serão públicas para visualização de outros usuários e administradores..
 
-As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
+Foi finalizada a tabela de reclamações (sem relacionamentos) 
 
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/HTML5-CED4DA?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
-<img src="https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 	
-<img src="https://img.shields.io/badge/Node.js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<span id="RNF002">
 
-<span id="equipe">
+### RNF002 - Banco de dados
 
-## Equipe:
+> O sistema deve utilizar banco de dados relacional para armazenamento e gerenciamento dos dados
 
-|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Desenvolvedor | Davy Oliveira Ribeiro           |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/davy-ribeiro-600a43253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/devDavyRibeiro)              |
-| Desenvolvedor  | Matheus Augusto Santos Gueff |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-gueff-b74949311) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MathGueff)     |
-|   Desenvolvedor    | Pedro Silva Martins               |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/pedro--silva-martins/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Pedro8k)        |
-|   Desenvolvedor   | Ryan Carlo Negretti Pereira                   |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-carlo-negretti-pereira-8709b1292/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/RyanCNP)        |
+Algumas tabelas do projeto foram finalizadas 
 
-<span id="doc-geral">
+<span id="RNF004">
 
-# Documentação Geral
+### RNF004 - Hardwares mínimos
 
-### Repositórios do Projeto
-- 🔗 [Back-End](https://github.com/RyanCNP/Backend-SaneaSP.git)  
-- 🔗 [Front-End](https://github.com/MathGueff/FrontEnd-SaneaSP.git)  
-- 📄 [Documentação](https://github.com/MathGueff/Documentacao-SaneaSP.git)
+> O sistema poderá ser acessado por dispositivos com navegador moderno (Chrome 90+, Firefox 90+, Edge 90+, Safari 14+), e resolução mínima de 360x640. Recomendado uso em telas maiores (1366x768+) para administradores.
 
-### Justificativa
+Com a base de dados leve e uso do SQLite, o backend continua operando de forma adequada em ambientes com hardware modesto.
 
-O projeto foi baseado nos Objetivos de Desenvolvimento Sustentável (ODS) de número 6 — *Água Potável e Saneamento* — e 3 — *Saúde e Bem-Estar*. Essas metas possuem uma relação direta de causa e consequência: comunidades com acesso adequado ao saneamento básico e à água potável estão menos expostas a doenças.
+<span id="RNF008">
 
-Apesar da existência de infraestrutura e órgãos competentes, problemas como fossas a céu aberto, esgoto irregular e rompimento de tubulações frequentemente passam despercebidos pelas autoridades. O **SaneaSP** visa preencher essa lacuna, dando voz aos cidadãos e fornecendo dados valiosos para a tomada de decisão.
+### RNF008 - Backend e API
+
+> O sistema deve possuir backend robusto, expor API RESTful e integrar-se com banco de dados em nuvem, garantindo segurança e desempenho adequados.
+
+A API foi conectada com os models do ORM, e parte da integração com o frontend foi iniciada
+
+→ [Voltar ao topo](#topo)
