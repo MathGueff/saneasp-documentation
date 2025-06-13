@@ -42,12 +42,13 @@ Cada entrega possui uma branch neste repositório com um relatório completo de 
 
 <div align="center">
 
+<span id="backlog-produto">
 ![BackLog do Produto (Req Funcionais)](https://github.com/user-attachments/assets/e8310752-8d60-40fd-910e-602eb39c5e87)
 ![BackLog do Produto (Req não Func)](https://github.com/user-attachments/assets/2625404e-5f2a-428a-a8f5-f893d3adc54a)
 
-![user-stories](https://github.com/user-attachments/assets/3e2a3af6-4536-4225-91fa-ca063d1fa2f1)
-![sprint_backlog1a3](https://github.com/user-attachments/assets/24d909e7-2c0c-4499-85ca-fae28289ba9f)
-![sprint_backlog4a6](https://github.com/user-attachments/assets/0b95d6b4-8291-4951-af29-a3ebf5147c9d)
+<span id="backlog-sprints">
+
+<span id="user-stories">
 
 </div>
 
@@ -56,12 +57,12 @@ Cada entrega possui uma branch neste repositório com um relatório completo de 
 ## Protótipo e Documentação
 
 #### Protótipo
-O protótipo do projeto foi desenvolvido na ferramenta Figma, trabalhando padronização de componentes e cores, disponível em: 
-* [Link para o protótipo do projeto](https://www.figma.com/design/MG7Q5GWGymhm1LSMIoI72c/SaneaSP?t=Mq1iBO8YoWLnfkMp-0).
+O protótipo do projeto foi desenvolvido na ferramenta Figma, trabalhando padronização de componentes e cores, disponível em:
+- [Link para o protótipo do projeto](https://www.figma.com/design/MG7Q5GWGymhm1LSMIoI72c/SaneaSP?t=Mq1iBO8YoWLnfkMp-0).
 
 #### Documentação
-Para a documentação, utilizamos várias ferramentas para criação de diagramas e de texto. Como Microsoft Word, Excel, Astah e Photopea. A documentação está disponível em: 
-* [Link para a documentação de SaneaSP](https://github.com/MathGueff/saneasp-engenharia-software/tree/main)
+Para a documentação, utilizamos várias ferramentas para criação de diagramas e de texto. Como Microsoft Word, Excel, Astah e Photopea. A documentação está disponível em:
+- [Link para a documentação de SaneaSP](https://github.com/MathGueff/saneasp-engenharia-software/tree/main)
 
 <span id="tecnologias">
 
@@ -87,10 +88,42 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 ## Equipe:
 
 | Função            | Nome                         | LinkedIn & GitHub                                                                                                                                                                                                                                                                                                                                                                                     |
-|-------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                                                           |
-| Product Owner (PO)      | Davy Oliveira Ribeiro        | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/davy-ribeiro-600a43253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/devDavyRibeiro) |
-| Scrum Master | Matheus Augusto Santos Gueff | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-gueff-b74949311) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MathGueff)             
+|-------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Product Owner(PO) | Davy Oliveira Ribeiro        | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-gueff-b74949311) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MathGueff)                                                                                        |
+| Scrum Master      | Matheus Augusto Santos Gueff | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/davy-ribeiro-600a43253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/devDavyRibeiro) |
 | Desenvolvedor     | Davy Oliveira Ribeiro        | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/davy-ribeiro-600a43253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/devDavyRibeiro) |
 | Desenvolvedor     | Matheus Augusto Santos Gueff | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-gueff-b74949311) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MathGueff)                                                                                        |
 | Desenvolvedor     | Pedro Silva Martins          | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/pedro--silva-martins/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Pedro8k)                                                                                            |
-| Desenvolvedor     | Ryan Carlo Negretti Pereira  | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-carlo-negretti-pereira-8709b1292/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/RyanCNP)                                                                           |
+| Desenvolvedor     | Ryan Carlo Negretti Pereira  | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-carlo-negretti-pereira-8709b1292/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/RyanCNP)                                                                           |                                                                  |
+
+<span id="documentacao-geral">
+
+## Documentação Geral
+
+Os links para a documentação das Sprints se encontram abaixo:
+
+- [Relatório das Sprints](https://github.com/MathGueff/saneasp-engenharia-software/blob/main/Documentos/Documentacao_de_Sprints_SaneaSP.docx)
+- <a href="#backlog-produto">Backlog do Produto</a>
+- <a href="#backlog-sprints">Backlog das Sprints</a>
+- <a href="#user-stories">User Stories</a>
+
+#### Como foi organizado
+A organização do nosso projeto seguindo as práticas da metodologia ágil Scrum e Kanban foi feita de forma a priorizar a organização e separação de papéis dentro das sprints atuais.
+
+#### Definição das sprints
+Durante as sprints, buscamos aprimorar pontos específicos, do site e trabalhar em grupo com funcionalidades globais, como acessibilidade e responsividade, para garantir que o projeto está evoluindo por ambos desenvolvedores.
+
+#### Divisão de listas no Trello
+O quadro kanban no Trello foi dividido entre Backlog do produto, ToDo (entregas da sprint), Doing e Done. O que colaborou muito para que fosse possível entender a posição em que o projeto estava e se era possível aumentar ou diminuir a carga para o time de desenvolvimento.
+
+#### Organização nos cartões
+Dentro do nosso espaço de trabalho no Trello, definimos algumas etiquetas como:
+- Separações por semestres, para manter o foco no que deve ser desenvolvido apenas no período atual do curso
+- Separação por Sprints para identificação na documentação e filtragem dos cartões na ferramenta Trello 
+- Separação por tipo de trabalho para que seja possível dividir a carga entre o que cada desenvolvedor pudesse garantir maior trabalho realizado e com maior qualidade.
+
+Além disso, foram definidas datas para entrega de todos os cartões marcados como #3°Semestre, para fins de documentação e organização da equipe.
+
+Para cada cartão foi atribuído um membro (ou dependendo do tamanho da tarefa, múltiplos membros), garantindo separação de responsabilidades.
+
+Cada cartão possui uma descrição para manter os padrões e requisitos claros., além de checklists para acompanhamento das diferentes partes do que for proposto no cartão.
