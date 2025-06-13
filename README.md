@@ -38,7 +38,9 @@ Cada entrega possui uma branch neste repositório com um relatório completo de 
 
 <div align="center">
 
-![produto_backlog](https://github.com/user-attachments/assets/30a506e6-cde0-4e48-a5b7-dc0471b3196b)
+![BackLog do Produto (Req Funcionais)](https://github.com/user-attachments/assets/e8310752-8d60-40fd-910e-602eb39c5e87)
+![BackLog do Produto (Req não Func)](https://github.com/user-attachments/assets/2625404e-5f2a-428a-a8f5-f893d3adc54a)
+
 ![user-stories](https://github.com/user-attachments/assets/3e2a3af6-4536-4225-91fa-ca063d1fa2f1)
 ![sprint_backlog1a3](https://github.com/user-attachments/assets/24d909e7-2c0c-4499-85ca-fae28289ba9f)
 ![sprint_backlog4a6](https://github.com/user-attachments/assets/0b95d6b4-8291-4951-af29-a3ebf5147c9d)
