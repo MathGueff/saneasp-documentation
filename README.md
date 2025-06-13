@@ -27,10 +27,10 @@ Cada entrega possui uma branch neste repositório com um relatório completo de 
 | 01 | 17/03/2025 | 01/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-01/README.md) |
 | 02 | 01/04/2025 | 16/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-02/README.md) |
 | 03 | 17/04/2025 | 28/04/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-03/README.md) |
-| 04 | 28/04/2025 | 12/05/2025 |✔️ Concluída    | Relatório não concluído |
-| 05 | 13/05/2025 | 27/05/2025 |✔️ Concluída    | Relatório não concluído |
-| 06 | 28/05/2025 | 10/06/2025 |🔁 Em Andamento    | Relatório não concluído |
-| 07 | 10/06/2025 | 24/06/2025 |✖️ Não iniciada   | Relatório não concluído |
+| 04 | 28/04/2025 | 12/05/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-04/README.md) |
+| 05 | 13/05/2025 | 27/05/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-05/README.md) |
+| 06 | 28/05/2025 | 10/06/2025 |✔️ Concluída    | [ver relatório](https://github.com/MathGueff/saneasp-documentation/tree/sprint-06/README.md) |
+| 07 | 10/06/2025 | 20/06/2025 |🔄 Em Andamento   | Relatório não concluído |
 
 <span id="backlogs">
 
