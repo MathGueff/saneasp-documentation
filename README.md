@@ -8,7 +8,8 @@
     <a href="#backlogs">Backlogs & User Stories</a>  |  
     <a href="#prototipo">Protótipo & Documentação</a>  |  
     <a href="#tecnologias">Tecnologias</a>  |  
-    <a href="#equipe">Equipe</a>
+    <a href="#equipe">Equipe</a> |
+    <a href="#documentacao-geral">Documentação Geral</a>
 </p>
 
 <span id="sobre">
@@ -42,13 +43,13 @@ Cada entrega possui uma branch neste repositório com um relatório completo de 
 
 <div align="center">
 
-<span id="backlog-produto">
-![BackLog do Produto (Req Funcionais)](https://github.com/user-attachments/assets/e8310752-8d60-40fd-910e-602eb39c5e87)
-![BackLog do Produto (Req não Func)](https://github.com/user-attachments/assets/2625404e-5f2a-428a-a8f5-f893d3adc54a)
+![BackLog do Produto (Req Funcionais)](https://github.com/user-attachments/assets/86bcff7e-229a-405e-b68c-3b4baf9f9b65)
+![BackLog do Produto (Req não Func)](https://github.com/user-attachments/assets/57dd5103-3026-428f-9f02-09eeb23d513f)
 
-<span id="backlog-sprints">
+![BackLog das Sprints](https://github.com/user-attachments/assets/9dadfcc2-39cb-4283-bb1c-3a70e5bc0d95)
 
-<span id="user-stories">
+![User Stories](https://github.com/user-attachments/assets/29604d16-992f-4033-a433-1d06b9164ad8)
+
 
 </div>
 
@@ -103,9 +104,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 Os links para a documentação das Sprints se encontram abaixo:
 
 - [Relatório das Sprints](https://github.com/MathGueff/saneasp-engenharia-software/blob/main/Documentos/Documentacao_de_Sprints_SaneaSP.docx)
-- <a href="#backlog-produto">Backlog do Produto</a>
-- <a href="#backlog-sprints">Backlog das Sprints</a>
-- <a href="#user-stories">User Stories</a>
+- <a href="#backlogs">Backlog do Produto, Backlog das Sprints e User Stories</a>
 
 #### Como foi organizado
 A organização do nosso projeto seguindo as práticas da metodologia ágil Scrum e Kanban foi feita de forma a priorizar a organização e separação de papéis dentro das sprints atuais.
