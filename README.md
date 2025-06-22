@@ -38,6 +38,8 @@
 - README do projeto atualizado com informações finais.  
 - Pesquisa de reclamações filtrada por usuário com login ativo.  
 - Cadastro de novo usuário implementado.
+- Documentação Swagger para o projeto
+- Hospedagem do backend no Render
 
 <span id="RF001">
 
