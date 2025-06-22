@@ -1,6 +1,6 @@
 <span id="topo">
 
-# Relatório da Sprint 7 (10/06/2025 a 20/06/2025)
+# Relatório da Sprint 7 (10/06/2025 a 24/06/2025)
 
 <p align="center">
     <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
