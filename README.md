@@ -8,7 +8,7 @@ Nessa disciplina, organizamos nosso trabalho e responsabilidades de forma a gara
 - [Voltar para a branch principal](https://github.com/MathGueff/saneasp-documentation)
 
 ### 📄 Documentação
-- [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
+- [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
 
 - [Documentação Técnicas de Programação II](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II)
 
