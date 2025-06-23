@@ -36,9 +36,9 @@ O **SaneaSP** é um sistema desenvolvido para auxiliar a prefeitura ou o órgão
 ### 📄 Documentação
 - <a href="#relatorio"> Relatório das sprints </a>
 
-- [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
+- [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
 
-- [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
+- [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
 
 - [Documentação Técnicas de Programação II](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II)
 
