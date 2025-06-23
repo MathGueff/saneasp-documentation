@@ -1,3 +1,6 @@
+| [⬅ Voltar ao menu principal](https://github.com/MathGueff/saneasp-documentation) |
+|:--|
+
 <span id="topo">
 
 # Relatório da Sprint 7 (10/06/2025 a 24/06/2025)
