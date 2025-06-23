@@ -8,7 +8,7 @@ Nossa documentação de Interação Humano Computador utilizou os melhores méto
 ## 🔗 Sumário do Projeto
 
 ### 📄 Documentação
-- [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
+- [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
 
 - [Documentação Técnicas de Programação II](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II)
 
