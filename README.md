@@ -37,7 +37,7 @@ O **SaneaSP** é um sistema desenvolvido para auxiliar a prefeitura ou o órgão
 
 - [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
 
-- [Documentação Técnicas de Programação II](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
+- [Documentação Técnicas de Programação II](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II)
 
 - [Documentação Swagger Desenvolvimento Web III](https://backend-saneasp.onrender.com/api-docs/)
 
@@ -106,7 +106,11 @@ Cada cartão possui uma descrição para manter os padrões e requisitos claros.
 
 ## Apresentação do projeto
 
-Assista um vídeo demonstração do projeto:
+Assista ao vídeo demonstração do projeto:
+
+
+https://github.com/user-attachments/assets/fc31f518-01a5-4807-9b35-ad9d1c92e887
+
 
 
 <span id="backlogs">
