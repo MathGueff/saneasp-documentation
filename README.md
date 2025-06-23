@@ -4,10 +4,10 @@
 
 | Tipo de teste | Acesso                                                                                                                                                  |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cadastro      | [Clique aqui para visualizar os testes de cadastro](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes/cadastro) |
-| Pesquisa      | [Clique aqui para visualizar os testes de pesquisa](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes/pesquisa) |
-| Edição        | [Clique aqui para visualizar os testes de edição](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes/edicao)     |
-| Exclusão      | [Clique aqui para visualizar os testes de exclusão](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes/exclusao) |
+| Cadastro      | [Clique aqui para visualizar os testes de cadastro](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes-validacao/cadastro) |
+| Pesquisa      | [Clique aqui para visualizar os testes de pesquisa](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes-validacao/pesquisa) |
+| Edição        | [Clique aqui para visualizar os testes de edição](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes-validacao/edicao)     |
+| Exclusão      | [Clique aqui para visualizar os testes de exclusão](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes-validacao/exclusao) |
 
 ## 📝 Regras de Validação
 1. `id_noticia`:
