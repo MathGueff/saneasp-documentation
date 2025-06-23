@@ -1,3 +1,6 @@
+| [⬅ Voltar ao menu principal](https://github.com/MathGueff/saneasp-documentation) | 
+|:--|
+
 # Validação de Notícias - Relatório de Erros
 
 ## Testes de Validação
@@ -29,10 +32,6 @@
    - Não pode ser alterado 
 
 ## 🔗 Sumário do Projeto
-
-### Página principal:
-
-- [Voltar para a branch principal](https://github.com/MathGueff/saneasp-documentation)
 
 ### 📄 Documentação
 - [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
