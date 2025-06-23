@@ -34,9 +34,9 @@
 ## 🔗 Sumário do Projeto
 
 ### 📄 Documentação
-- [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
+- [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
 
-- [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
+- [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
 
 - [Documentação Swagger Desenvolvimento Web III](https://backend-saneasp.onrender.com/api-docs/)
 
