@@ -1,3 +1,6 @@
+| [⬅ Voltar ao menu principal](https://github.com/MathGueff/saneasp-documentation) | [Próximo relatório ➡](https://github.com/MathGueff/saneasp-documentation/blob/sprint-06/README.md) |
+|:--|--:|
+
 <span id="topo">
 
 # Relatório da Sprint 5 (13/05/2025 a 27/05/2025)
