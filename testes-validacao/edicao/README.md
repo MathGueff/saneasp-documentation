@@ -1,3 +1,6 @@
+| [⬅ Voltar para a documentação principal](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II) | [Teste de validação de exclusão ➡](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes-validacao/exclusao/README.md) |
+|:--|--:|
+
 ## Edição de Noticias
 
 ### ✅ Caso de Sucesso
