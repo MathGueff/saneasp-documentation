@@ -1,3 +1,6 @@
+| [⬅ Voltar para a documentação principal](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II) | [Teste de validação de edição ➡](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes-validacao/edicao/README.md) |
+|:--|--:|
+
 ## Pesquisa de Notícias
 
 ### ✅ Caso de Sucesso
