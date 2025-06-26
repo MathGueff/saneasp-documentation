@@ -1,3 +1,6 @@
+| [⬅ Voltar ao menu principal](https://github.com/MathGueff/saneasp-documentation) | 
+|:--|
+
 # Validação de Notícias - Relatório de Erros
 
 ## Testes de Validação
@@ -27,4 +30,13 @@
 5. `id_admin`:
    - Número positivo maior do que 0
    - Não pode ser alterado 
+
+## 🔗 Sumário do Projeto
+
+### 📄 Documentação
+- [Documentação Gestão Ágil de Projetos de Software](https://github.com/MathGueff/saneasp-documentation/tree/gestao-agil-de-projetos-de-software)
+
+- [Documentação Interação Humano Computador](https://github.com/MathGueff/saneasp-documentation/tree/interacao-humano-computador)
+
+- [Documentação Swagger Desenvolvimento Web III](https://backend-saneasp.onrender.com/api-docs/)
 

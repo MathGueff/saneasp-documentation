@@ -28,19 +28,29 @@
 #### 4. Título Curto
 - **Título:** "Expansão" *(7 caracteres - abaixo do mínimo)*  
 - **Descrição:** Estudo aponta que 35% da população ainda não tem acesso à rede de esgoto.  
-- **Erro:** `O título deve conter pelo menos 15 caracteres`  
+- **Erro:** `O título deve conter pelo menos 15 caracteres`
+  
+#### 5. Título Grande
+- **Título:** "Comunidade de cidade Inova com Sistema Sustentável de Reaproveitamento de Água e Ganha Reconhecimento Nacional " *(101 caracteres - limite de 100 caracteres)* 
+- **Descrição:** Estudo aponta que 35% da população ainda não tem acesso à rede de esgoto.  
+- **Erro:** `O título não deve conter mais do que 100 caracteres`  
 
-#### 5. Título Vazio
+#### 6. Título Vazio
 - **Título:** *(vazio)*  
 - **Descrição:** Nova estação de tratamento deve beneficiar mais de 200 mil pessoas em área urbana.  
-- **Erro:** `O título não pode estar em branco`  
+- **Erro:** `O título é obrigatório`  
 
-#### 6. Descrição Curta
+#### 7. Descrição Curta
 - **Título:** Governo investe em tratamento de água no semiárido  
 - **Descrição:** "Apenas 12 cidades." *(15 caracteres - abaixo do mínimo)* 
-- **Erro:** `A descrição deve ter no mínimo 30 caracteres`  
+- **Erro:** `A descrição deve ter no mínimo 30 caracteres`
 
-#### 7. Descrição Vazia
+#### 8. Descrição Grande
+- **Título:** Governo investe em tratamento de água no semiárido  
+- **Descrição:** "A comunidade do bairro Nova Esperança implementou um sistema revolucionário de captação e reaproveitamento da água da chuva, que proporcionou uma economia de mais de 60% no consumo hídrico local. A iniciativa, idealizada por moradores em parceria com engenheiros voluntários e estudantes universitários, chamou a atenção de autoridades ambientais. Como resultado, o projeto foi premiado nacionalmente e passou a servir de referência para outras regiões enfrentando crises relacionadas ao abastecimento de água." *(512 caracteres - limite de 500 caracteres)* 
+- **Erro:** `A descrição deve ter no máximo 500 caracteres`  
+
+#### 9. Descrição Vazia
 - **Título:** Nova lei exige fiscalização mais rígida em obras  
 - **Descrição:** *(vazia)*  
 - **Erro:** `A descrição é obrigatória` 
