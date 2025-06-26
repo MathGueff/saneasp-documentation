@@ -10,12 +10,7 @@
 
 ### ❌ Casos com Erros
 
-#### 1. ID inválido
-
-- **ID:** 0 *(inválido <= 0)*
-- **Erro:** `O campo id da noticia não pode ser menor ou igual a zero`  
-
-#### 2. ID inexistente
+#### 1. ID inexistente
 - **ID:** 200 *(não existente)*
 - **IDs existentes:** 1, 2, 3 
 - **Erro:** `Nenhuma notícia encontrada com esse ID`  
