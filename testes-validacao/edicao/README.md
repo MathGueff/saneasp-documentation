@@ -8,7 +8,7 @@ No nosso formulário de edição, os campos data, id da notícia e id do admin e
 ### ✅ Caso de Sucesso
 - **Título:** Governo libera verba para obras de esgotamento  
 - **Descrição:** O investimento beneficiará mais de 500 mil pessoas em áreas urbanas e rurais.  
-- **Resultado:** `Cadastro realizado com sucesso`  
+- **Resultado:** `Notícia editada com sucesso`  
 
 ### ❌ Casos com Erros
 
