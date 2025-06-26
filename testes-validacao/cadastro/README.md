@@ -91,7 +91,7 @@ Para os testes de cadastro as validações referentes ao ID da notícia foram de
 - **ID Admin:** -2 *(inválido: ≤ 0)*  
 - **Erro:** `O campo id do admin não pode ser menor ou igual a zero`
 
-#### 12. ID Admin com valor string
+#### 12. ID Admin com tipo inválido
 - **Título:** Falta de saneamento agrava surtos em periferias  
 - **Descrição:** Casos de doenças de veiculação hídrica aumentaram em bairros sem coleta e tratamento adequados.  
 - **Data de publicação:** 12/06/2025  
