@@ -1,3 +1,6 @@
+| [⬅ Voltar para a documentação principal](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II) | [Voltar para o teste de cadastro ➡](https://github.com/MathGueff/saneasp-documentation/tree/tecnicas-de-programacao-II/testes-validacao/cadastro/README.md) |
+|:--|--:|
+
 ## Exclusão de Notícias
 
 ### ✅ Caso de Sucesso
